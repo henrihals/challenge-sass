@@ -10,7 +10,8 @@ body {
     background-color: $white;
     overflow-x: hidden;
     .advantages {
-        @for $i from 0 to 7 {
+        @for $i from 0 to 7
+         {
             & li:nth-child(#{$i}) {
                 background: lighten($gradient1, $i * 10%);
                 color: darken($gradient2, $i * 5%);
