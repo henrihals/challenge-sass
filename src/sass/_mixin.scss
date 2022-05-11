@@ -1,1 +1,18 @@
-@import "_variables.scss"
+@mixin FloatLeft {
+    float: left;
+    width: 40%;
+}
+
+@mixin  FloatRight {
+    float: right;
+    width: 40%;
+}
+@mixin Padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@mixin BoxShadow($color) {
+    -webkit-box-shadow: 10px 10px 15px -4px $color;
+    -moz-box-shadow: 10px 10px 15px -4px $color;
+    box-shadow: 10px 10px 15px -4px $color;
+}
